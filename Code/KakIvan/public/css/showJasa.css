@@ -1,0 +1,34 @@
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex input {
+    width: 250px;
+}
+
+@media (max-width: 992px) {
+    .flex {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .tanggalPilih {
+        /* border: 1px solid black; */
+        width: 80% !important;
+    }
+
+    .tanggalPilih input {
+        text-align: center;
+        width: 100% !important;
+    }
+
+    .bayar {
+        text-align: center !important;
+    }
+
+    .bayar a {
+        width: 100% !important;
+    }
+
+}

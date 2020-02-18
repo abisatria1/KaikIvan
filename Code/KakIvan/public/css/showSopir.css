@@ -1,0 +1,9 @@
+@media (max-width: 992px) {
+    .showSopir {
+        width: 100% !important;
+    }
+
+    .iziModal {
+        width: 400px !important;
+    }
+}

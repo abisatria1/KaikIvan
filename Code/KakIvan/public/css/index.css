@@ -1,0 +1,402 @@
+@import url(//db.onlinewebfonts.com/c/1e5b7f8cdbcb1e579a6e53aaadaf0b67?family=FF+Real+Head);
+
+@font-face {
+    font-family: "FF Real Head";
+    src: url("//db.onlinewebfonts.com/t/1e5b7f8cdbcb1e579a6e53aaadaf0b67.eot");
+    src: url("//db.onlinewebfonts.com/t/1e5b7f8cdbcb1e579a6e53aaadaf0b67.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1e5b7f8cdbcb1e579a6e53aaadaf0b67.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1e5b7f8cdbcb1e579a6e53aaadaf0b67.woff") format("woff"), url("//db.onlinewebfonts.com/t/1e5b7f8cdbcb1e579a6e53aaadaf0b67.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1e5b7f8cdbcb1e579a6e53aaadaf0b67.svg#FF Real Head") format("svg");
+}
+
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Oswald|PT+Sans|Viga|Vollkorn&display=swap');
+
+.container-fluid {
+    /* position: fixed; */
+    min-height: 800px;
+    height: 700px;
+}
+
+body {
+    background-color: #ECEFF4;
+}
+
+
+thead {
+    background-color: white !important;
+}
+
+tbody {
+    background-color: white !important;
+}
+
+table {
+    box-shadow: 0 0 5px 2px rgba(61, 61, 61, 0.247);
+}
+
+
+
+/* sidebar */
+.sidebar a {
+    display: inline-block;
+    padding: 12px 0;
+    /* width: 100%; */
+    /* display: block; */
+    transition: 0.2s;
+}
+
+.navbar {
+    background-color: #222D31 !important;
+    /* position: fixed; */
+    /* width: 100%; */
+}
+
+.nav-link {
+    color: rgb(233, 233, 233) !important;
+}
+
+.navbar a:hover {
+    color: #ffffff77 !important;
+}
+
+.navbar-brand {
+    color: #F57C00 !important;
+    font-family: 'Viga', sans-serif !important;
+}
+
+#selected {
+    color: #6b6b6b !important;
+}
+
+/* end of sidebar */
+
+
+/* content */
+.content {
+    text-align: left;
+    margin: 0 10px !important;
+}
+
+.judul h2 {
+    font-family: "FF Real Head";
+    /* font-family: 'PT Sans', sans-serif !important; */
+    font-size: 44px !important;
+    /* text-transform: uppercase; */
+    font-weight: bold;
+}
+
+.header {
+    margin: 28px 0;
+}
+
+#judulShowJasa {
+    margin: 40px 0;
+}
+
+#judulShowJasa b {
+    color: #F57C00;
+}
+
+.header h2 {
+    text-align: center;
+}
+
+.header .tanggal {
+    text-align: left;
+}
+
+.header .input {
+    margin: 10px 0;
+    width: 120px;
+}
+
+.header .inputJasa {
+    margin: 20px 0;
+}
+
+.table .hidden {
+    display: none;
+}
+
+
+
+.table th,
+.table td {
+    text-align: center;
+}
+
+
+
+.tanggal label {
+    margin-bottom: 0;
+    color: #6b6b6b;
+}
+
+/* end of content */
+
+
+/* InputForm */
+.inputform {
+    width: 60%;
+    margin: auto;
+}
+
+
+.title h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.inputform .button button,
+.inputform .button a {
+    width: 96px !important;
+    display: inline-block;
+}
+
+
+#sopir {
+    font-size: 14px !important;
+}
+
+.input-group-addon {
+    border: 1px solid #CED4DA !important;
+}
+
+.select2-selection {
+    border: 1px solid #CED4DA !important;
+    min-height: 38px !important;
+}
+
+
+.editSopirRow .select2-selection {
+    display: inline-block;
+    width: 120px !important;
+
+}
+
+/* end of InputForm */
+
+
+
+
+
+/* modal */
+#modal {
+    max-width: 1000px;
+    height: auto;
+}
+
+#modal h4 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#modal b {
+    color: rgb(255, 166, 78);
+}
+
+.showSopir {
+    min-width: 1100px !important;
+    height: auto;
+}
+
+.iziModal-content {
+    /*  */
+}
+
+.iziModal-content table {
+    margin: 0 auto 20px auto;
+}
+
+.iziModal-header-title {
+    font-size: 24px !important;
+    font-weight: bold;
+}
+
+.iziModal-header-subtitle {
+    font-size: 13px !important;
+}
+
+/* end of modal */
+
+
+
+/* custom */
+/* custom btn */
+.custom-btn {
+    width: 112px;
+    text-align: center;
+    border: none;
+    padding: 6px 0;
+    /* background-color: #69d2e7; */
+    /* background: linear-gradient(to top, #ff580b, rgb(255, 89, 0)); */
+    background: rgb(223, 117, 20);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    color: white;
+    box-shadow: 1px 1px 3px 1px rgba(126, 126, 126, 0.308);
+    display: inline-block;
+    border-radius: 4px;
+}
+
+
+
+
+.custom-btn:hover {
+    color: white;
+    background: linear-gradient(to top, #F57C00, #F57C00);
+}
+
+#toogleMenu {
+    position: fixed;
+    bottom: 0px;
+    left: 204px;
+    background-color: #F57C00;
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+}
+
+#toogleMenu button {
+    width: 100%;
+    height: 100%;
+    background-color: none;
+    border: none;
+}
+
+.formBtn {
+    display: inline;
+}
+
+.cancelBtn,
+#saveBtn {
+    text-align: center;
+    display: inline-block;
+    width: 50px;
+    font-size: 18px !important;
+    margin: 2px 0;
+    text-align: center !important;
+
+}
+
+#bayarBtn,
+#cancelBtn {
+    display: inline-block !important;
+    width: 120px;
+    font-size: 16px !important;
+}
+
+.hidden {
+    display: none;
+}
+
+.daterangepicker .cancelBtn {
+    font-size: 12px !important;
+    text-align: center;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+/* custom date */
+
+input[type="date"]::-webkit-inner-spin-button {
+    display: none;
+}
+
+/* custom icon */
+i {
+    font-weight: 100 !important;
+}
+
+.custom-icon {
+    font-size: 18px;
+}
+
+.data {
+    cursor: pointer;
+}
+
+td p:hover {
+    cursor: pointer;
+    background-color: #28A745;
+}
+
+td p {
+    display: inline;
+}
+
+.logout {
+    background-color: #F57C00;
+    margin-left: 700px;
+    border-radius: 5px;
+}
+
+.logout a:hover {
+    background-color: rgb(255, 150, 45);
+    border-radius: 5px;
+}
+
+
+
+@media (max-width: 1200px) {
+    .logout {
+        text-align: center;
+        margin-left: 500px;
+    }
+
+    .logout a:hover {
+        /* background: none; */
+        border-radius: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .logout {
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .logout a:hover {
+        /* background: none; */
+        border-radius: 0;
+    }
+
+    .judul h2 {
+        font-size: 32px !important;
+    }
+
+    .btn {
+        font-size: 14px;
+        /* width: 40px !important; */
+        margin-top: 5px;
+    }
+
+    .col {
+        padding: 0 !important;
+    }
+
+    .inputForm {
+        width: 100% !important;
+    }
+
+    .inputSopir,
+    .inputJasa {
+        margin-top: 48px;
+    }
+
+    .tanggal {
+        margin-top: 40px;
+    }
+
+    .tanggal input {
+        width: 100% !important;
+    }
+}
